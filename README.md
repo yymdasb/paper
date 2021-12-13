@@ -12,16 +12,16 @@ Culture: 48 hours, 150 ul (595-605), 10min 测一次？？？
 - lag time(population adaptation time)
 - efficiency (biomass produced during the cultivation) 
 
-- sepcific growth rate: 
+- sepcific growth rate:   
 maximum linear regression line calculated over 15 consecutive absorbance records with a sliding window of 10 points.
 计算连续15个测量点的斜率最大的回归先，一共有10个数据。
 
-- lag time:
+- lag time:  
 intersection between this regression line and baseline absorbance level. 
 回归线和baseline的交叉点？
 
-- efficiency:
-Max OD
+- efficiency:  
+Max OD  
 
 所有的数据都经过正则化处理，以YPD数据为基准。  
 
